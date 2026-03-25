@@ -1,0 +1,16 @@
+asset_id,hostname,asset_type,os,os_version,software,software_version,internet_exposed,criticality,business_unit
+1,WEB-FE-01,Web Server,Ubuntu,20.04,Apache,2.4.49,True,High,E-Commerce
+2,DC-01,Domain Controller,Windows Server,2019,Active Directory,2019,False,Critical,IT
+3,DB-01,Database Server,Windows Server,2016,MSSQL,2017,False,High,Finance
+4,APP-01,App Server,Ubuntu,22.04,Tomcat,9.0.65,True,Medium,HR
+5,VPN-01,Network Appliance,Cisco IOS,15.7,VPN Gateway,3.2,True,Critical,Infrastructure
+6,MAIL-01,Exchange Server,Windows Server,2019,Microsoft Exchange,2019 CU11,True,Critical,Communications
+7,DEV-WKSTN-44,Workstation,Windows 11,22H2,Docker Desktop,4.10,False,Low,Engineering
+8,FILE-SRV-02,File Server,Windows Server,2022,SMB Services,3.1.1,False,High,Operations
+9,K8S-MASTER-01,Container Node,Debian,11,Kubernetes,1.24.0,False,Critical,Engineering
+10,HR-WKSTN-05,Workstation,Windows 10,21H2,Microsoft Office,2019,False,Medium,HR
+11,EXT-API-01,API Gateway,CentOS,8,Nginx,1.18.0,True,High,Engineering
+12,ESXI-01,Hypervisor,VMware ESXi,7.0,VMware Tools,11.3,False,Critical,IT
+13,JIRA-SRV-01,Internal Tool,Ubuntu,20.04,Atlassian Jira,8.20.10,False,Medium,Engineering
+14,CCTV-NVR-01,IoT Controller,Linux,Custom,Hikvision Firmware,5.5.0,False,Low,Physical Security
+15,EDGE-RTR-01,Edge Router,Juniper Junos,21.2,Routing Service,21.2R1,True,Critical,Infrastructure

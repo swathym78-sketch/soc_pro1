@@ -1,0 +1,26 @@
+# --- Core RAG & Vector DB ---
+chromadb>=0.4.24
+langchain>=0.2.7
+langchain-community>=0.2.7
+langchain-core>=0.2.7
+
+# --- Ollama Integration ---
+ollama>=0.2.1
+langchain-ollama>=0.1.1
+requests>=2.31.0
+
+# --- UI ---
+streamlit>=1.35.0
+
+# --- Notebooks ---
+ipykernel>=6.29.0
+jupyter>=1.0.0
+
+# --- Optional Agent Framework (NOT core) ---
+crewai>=0.28.8
+crewai-tools>=0.1.6
+
+# --- Utilities ---
+pydantic>=2.6.0
+python-dotenv>=1.0.1
+rich>=13.7.0
